@@ -366,8 +366,11 @@ li::marker {
 .main .skills__item .progress-95:before {
   width: 95%;
 }
-.main .skills__item .progress-55:before {
-  width: 55%;
+.main .skills__item .progress-65:before {
+  width: 65%;
+}
+.main .skills__item .progress-10:before {
+  width: 10%;
 }
 .main .skills .tech-box {
   margin-top: 40px;
@@ -396,8 +399,8 @@ li::marker {
   border: 1px solid #bcdddc;
   grid-area: portfolio;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-column-gap: 10px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
 }
 .main .portfolio .label {
   position: absolute;
