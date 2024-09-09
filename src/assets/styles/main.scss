@@ -1,0 +1,63 @@
+@import 'normalize.css';
+@import '@/assets/styles/variables';
+@import '@/assets/styles/mixins';
+
+:root {
+    --color-html: $htmlColor;
+    --color-css: $cssColor;
+    --color-scss: $scssColor;
+    --color-js: $jsColor;
+    --color-ts: $tsColor;
+    --color-vue: $vueColor;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img,
+picture {
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+
+    &:hover {
+        color: #FF7400 !important;
+    }
+
+    &:visited {
+        color: currentColor;
+    }
+}
+
+body {
+    background: $darkBG;
+    overflow-y: scroll;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 0px 30px;
+    margin: 0px auto;
+
+    @media (max-width: 630px) {
+        padding: 0px 10px;
+    }
+}
+
+section {
+    @include sectionStyle;
+    align-self: start; 
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
