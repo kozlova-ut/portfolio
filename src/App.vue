@@ -67,7 +67,7 @@ watch(route, () => {
 });
 
 const getImageSrc = (id: number, size: number): string => {
-  return `${import.meta.env.VITE_ASSETS_PATH}/julie_${id}_${size}.png`;
+  return `${import.meta.env.VITE_ASSETS_PATH}/img/julie_${id}_${size}.png`;
 }
 
 </script>
