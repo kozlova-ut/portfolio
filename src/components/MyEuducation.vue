@@ -17,9 +17,15 @@
 
 const education = [
     {
+        id: 4,
+        company: 'HTML Academy',
+        date: '2024 - настоящее время',
+        position: 'Алгоритмы и структуры данных',
+    },
+    {
         id: 3,
         company: 'Skillbox',
-        date: '2020 - настоящее время',
+        date: '2020 - 2024',
         position: 'Профессия Frontend-разработчик',
     },
     {
